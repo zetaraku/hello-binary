@@ -20,7 +20,7 @@
     "rules": {
         "react/no-unknown-property": [
             "error",
-            { "ignore": ["class", "for"] }
+            { "ignore": ["class", "for", "css"] }
         ]
     }
 }
