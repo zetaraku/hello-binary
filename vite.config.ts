@@ -6,6 +6,9 @@ import unocss from 'unocss/vite'
 export default defineConfig({
   plugins: [
     react({
+      babel: {
+        plugins: ['react-html-attrs']
+      },
       jsxImportSource: '@emotion/react'
     }),
     unocss()
