@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/vite-react/tsconfig.json",
   "compilerOptions": {
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
