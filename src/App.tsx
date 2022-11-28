@@ -6,7 +6,7 @@ const App: React.FunctionComponent = () => {
 
   return (
     <div>
-      <h1>Vite + React</h1>
+      <h1 class="text-red-500">Vite + React</h1>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
