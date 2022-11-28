@@ -1,6 +1,6 @@
 import React from 'react'
 
-function App() {
+const App: React.FunctionComponent = () => {
   const [count, setCount] = React.useState(0)
 
   return (
