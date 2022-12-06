@@ -5,6 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
         "standard-with-typescript"
     ],
     "overrides": [
@@ -15,7 +16,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "react-hooks"
     ],
     "rules": {
         "react/no-unknown-property": [
