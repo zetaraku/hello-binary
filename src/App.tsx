@@ -1,5 +1,6 @@
 import React from 'react'
 import { css } from '@emotion/react'
+import HelloFloat32 from './components/HelloFloat32'
 
 const App: React.FunctionComponent = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FunctionComponent = () => {
           min-height: calc(100vh - 48px - 36px);
         `}
       >
+        <HelloFloat32 initialNumber={0} />
       </main>
       <footer
         css={css`
