@@ -4,9 +4,10 @@
         "es2021": true
     },
     "extends": [
+        "eslint:recommended",
+        "standard-with-typescript",
         "plugin:react/recommended",
-        "plugin:react-hooks/recommended",
-        "standard-with-typescript"
+        "plugin:react-hooks/recommended"
     ],
     "overrides": [
     ],
