@@ -18,7 +18,8 @@
     "immer": "^9.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-if": "^4.1.4"
+    "react-if": "^4.1.4",
+    "react-router-dom": "^6.4.5"
   },
   "devDependencies": {
     "@tsconfig/node-lts-strictest-esm": "^18.12.1",
