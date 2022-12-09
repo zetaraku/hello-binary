@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { If, Then, Else, When, Unless, Switch, Case, Default } from 'react-if'
-import React from 'react'
+import * as React from 'react'
 import * as M from '@mui/material'
 import { css } from '@emotion/react'
 import { Icon } from '@iconify/react'

@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import * as React from 'react'
+import * as ReactDOM from 'react-dom/client'
 import * as M from '@mui/material'
 import App from './App'
 import '@fontsource/roboto/500.css'
