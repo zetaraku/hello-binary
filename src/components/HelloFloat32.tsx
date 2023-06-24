@@ -123,9 +123,9 @@ const HelloFloat32: React.FunctionComponent = () => {
 
   return (
     <M.Container maxWidth="xl">
-      <h2>Float32 (Single-precision floating-point format)</h2>
+      <h1>Float32 (Single-precision floating-point format)</h1>
 
-      <h3>Calculator</h3>
+      <h2>Calculator</h2>
       <M.Table>
         <M.TableHead>
           {/* Headers */}
@@ -283,7 +283,7 @@ const HelloFloat32: React.FunctionComponent = () => {
         </M.TableBody>
       </M.Table>
 
-      <h3>Special Values</h3>
+      <h2>Special Values</h2>
       <M.Table size="small">
         <M.TableHead>
           <M.TableRow>
