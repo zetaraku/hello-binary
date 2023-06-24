@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { css } from '@emotion/react'
-import HelloFloat32 from './components/HelloFloat32'
+import HelloFloat32 from './pages/HelloFloat32'
 
 const App: React.FunctionComponent = () => {
   return (
