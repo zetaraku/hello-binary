@@ -51,9 +51,7 @@ export const style = {
   `
 }
 
-const HelloFloat32: React.FunctionComponent<{
-  initialNumber?: number
-}> = (props) => {
+const HelloFloat32: React.FunctionComponent = () => {
   const [float32, dispatch] = React.useReducer(
     (prevState: Float32, action: (
       {
@@ -79,7 +77,7 @@ const HelloFloat32: React.FunctionComponent<{
         }
       }
     },
-    Float32.fromNumber(props.initialNumber ?? 0)
+    Float32.fromNumber(0)
   )
 
   const numberInputRef = React.useRef<HTMLButtonElement>(null)

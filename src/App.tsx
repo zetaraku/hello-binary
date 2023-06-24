@@ -14,7 +14,7 @@ const App: React.FunctionComponent = () => {
           min-height: calc(100vh - 48px - 36px);
         `}
       >
-        <HelloFloat32 initialNumber={0} />
+        <HelloFloat32 />
       </main>
       <footer
         css={css`
