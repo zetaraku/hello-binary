@@ -122,7 +122,7 @@ const HelloFloat32: React.FunctionComponent = () => {
   )).reverse()
 
   return (
-    <M.Container maxWidth="xl">
+    <>
       <h1>Float32 (Single-precision floating-point format)</h1>
 
       <h2>Calculator</h2>
@@ -347,7 +347,7 @@ const HelloFloat32: React.FunctionComponent = () => {
           </M.TableRow>
         </M.TableBody>
       </M.Table>
-    </M.Container>
+    </>
   )
 }
 
